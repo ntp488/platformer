@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Platformer-Artifact.iml" filepath="$PROJECT_DIR$/.idea/modules/Platformer-Artifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Platformer-Artifact_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Platformer-Artifact_main.iml" group="Platformer-Artifact" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Platformer-Artifact_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Platformer-Artifact_test.iml" group="Platformer-Artifact" />
+    </modules>
+  </component>
+</project>

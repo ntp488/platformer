@@ -1,4 +1,4 @@
-package com.platformer;
+package com.platformer.guiComponents;
 
 import javax.swing.*;
 import javax.swing.border.Border;

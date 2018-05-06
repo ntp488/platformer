@@ -1,19 +1,17 @@
 package com.platformer;
 
+import com.platformer.guiComponents.PlatformerGUI;
+
 import java.awt.*;
 
 /**
  * Created by Owner on 7/11/2017.
  */
 public class PlatformerMain {
-    private static PlatformerGUI gui;
-    //private static DeviceManager deviceManager;
 
     public static void main(String[] args) {
-        gui = new PlatformerGUI();
-        //deviceManager = new DeviceManager();
-        // will perform static code block to initialize values and attempt first connection
-        new DeviceManager();
+        new PlatformerGUI();
+        new DeviceManager(); // blocking operation, attempts first connection
         CreateSystemTrayIcon();
     }
 
@@ -41,7 +39,6 @@ public class PlatformerMain {
     }
 
     public static void PerformShutdown() {
-        //perform any necessary steps for shutdown here.
         DeviceManager.CloseConnection();
         System.exit(0);
     }

@@ -1,4 +1,7 @@
-package com.platformer;
+package com.platformer.guiComponents.guiUtils;
+
+import com.platformer.guiComponents.PlatformerControlPanel;
+import com.platformer.guiComponents.PlatformerGUI;
 
 import javax.swing.event.MouseInputListener;
 import java.awt.*;

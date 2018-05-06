@@ -1,4 +1,7 @@
-package com.platformer;
+package com.platformer.guiComponents;
+
+import com.platformer.guiComponents.guiUtils.WindowDragAndResizeListener;
+import com.platformer.guiComponents.guiUtils.WindowFunctionsListener;
 
 import javax.swing.*;
 import java.awt.*;

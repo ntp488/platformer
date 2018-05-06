@@ -1,4 +1,4 @@
-package com.platformer;
+package com.platformer.guiComponents;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,19 +12,18 @@ public class PlatformerGUI extends JFrame {
     private Dimension windowDimensions = new Dimension(250, 150);
 
     public PlatformerGUI() {
-        InitializeComponents();
-
-        setTitle("Platformer");
-        setUndecorated(true);
-        setPreferredSize(windowDimensions);
-        setMinimumSize(windowDimensions);
+        this.setTitle("Platformer");
+        this.setUndecorated(true);
+        this.setPreferredSize(windowDimensions);
+        this.setMinimumSize(windowDimensions);
 
         BoxLayout layout = new BoxLayout(getContentPane(), BoxLayout.Y_AXIS);
-        getContentPane().setLayout(layout);
+        this.getContentPane().setLayout(layout);
 
+        InitializeComponents();
         AddComponents();
 
-        setVisible(true);
+        this.setVisible(true);
     }
 
     private void InitializeComponents(){
@@ -33,8 +32,8 @@ public class PlatformerGUI extends JFrame {
     }
 
     private void AddComponents() {
-        add(controlPanel);
-        add(informationPanel);
+        this.add(controlPanel);
+        this.add(informationPanel);
     }
 
     public Dimension GetWindowDimensions(){

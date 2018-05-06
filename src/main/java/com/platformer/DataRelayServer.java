@@ -1,9 +1,9 @@
 package com.platformer;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
-
-import java.net.*;
-import java.io.*;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 /**
  * Created by Nathan Pell on 7/14/2017.
